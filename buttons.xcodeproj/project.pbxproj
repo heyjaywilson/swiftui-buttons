@@ -28,6 +28,9 @@
 		372169F62355EB3B00511331 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372169F52355EB3B00511331 /* ExtensionDelegate.swift */; };
 		372169F82355EB3C00511331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169F72355EB3C00511331 /* Assets.xcassets */; };
 		372169FB2355EB3C00511331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169FA2355EB3C00511331 /* Preview Assets.xcassets */; };
+		37216A0E2355F18F00511331 /* PlainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37216A0D2355F18F00511331 /* PlainButtonView.swift */; };
+		37216A0F2355F18F00511331 /* PlainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37216A0D2355F18F00511331 /* PlainButtonView.swift */; };
+		37216A102355F18F00511331 /* PlainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37216A0D2355F18F00511331 /* PlainButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,7 @@
 		372169F72355EB3C00511331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		372169FA2355EB3C00511331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		372169FC2355EB3C00511331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37216A0D2355F18F00511331 /* PlainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 		372169A82355E86B00511331 /* buttons */ = {
 			isa = PBXGroup;
 			children = (
+				37216A082355F0BD00511331 /* Buttons */,
 				372169BD2355E9A200511331 /* buttons.entitlements */,
 				372169A92355E86B00511331 /* AppDelegate.swift */,
 				372169AB2355E86B00511331 /* SceneDelegate.swift */,
@@ -236,6 +241,14 @@
 				372169FA2355EB3C00511331 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37216A082355F0BD00511331 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				37216A0D2355F18F00511331 /* PlainButtonView.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +444,7 @@
 				372169AA2355E86B00511331 /* AppDelegate.swift in Sources */,
 				372169AC2355E86B00511331 /* SceneDelegate.swift in Sources */,
 				372169AE2355E86B00511331 /* ContentView.swift in Sources */,
+				37216A0E2355F18F00511331 /* PlainButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +455,7 @@
 				372169D72355EA8500511331 /* BorderedButtonTest.swift in Sources */,
 				372169C72355E9E400511331 /* ContentView.swift in Sources */,
 				372169C52355E9E400511331 /* AppDelegate.swift in Sources */,
+				37216A0F2355F18F00511331 /* PlainButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +466,7 @@
 				372169F42355EB3B00511331 /* HostingController.swift in Sources */,
 				372169F22355EB3B00511331 /* ContentView.swift in Sources */,
 				372169F62355EB3B00511331 /* ExtensionDelegate.swift in Sources */,
+				37216A102355F18F00511331 /* PlainButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
