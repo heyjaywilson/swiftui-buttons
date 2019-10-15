@@ -13,7 +13,64 @@
 		372169B02355E86D00511331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169AF2355E86D00511331 /* Assets.xcassets */; };
 		372169B32355E86D00511331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169B22355E86D00511331 /* Preview Assets.xcassets */; };
 		372169B62355E86D00511331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372169B42355E86D00511331 /* LaunchScreen.storyboard */; };
+		372169C52355E9E400511331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372169C42355E9E400511331 /* AppDelegate.swift */; };
+		372169C72355E9E400511331 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372169C62355E9E400511331 /* ContentView.swift */; };
+		372169C92355E9E600511331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169C82355E9E600511331 /* Assets.xcassets */; };
+		372169CC2355E9E600511331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169CB2355E9E600511331 /* Preview Assets.xcassets */; };
+		372169CF2355E9E600511331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372169CD2355E9E600511331 /* Main.storyboard */; };
+		372169D72355EA8500511331 /* BorderedButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372169D62355EA8500511331 /* BorderedButtonTest.swift */; };
+		372169DE2355EB3800511331 /* buttons-watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 372169DD2355EB3800511331 /* buttons-watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		372169E42355EB3800511331 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372169E22355EB3800511331 /* Interface.storyboard */; };
+		372169E62355EB3B00511331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169E52355EB3B00511331 /* Assets.xcassets */; };
+		372169ED2355EB3B00511331 /* buttons-watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 372169EC2355EB3B00511331 /* buttons-watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		372169F22355EB3B00511331 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372169F12355EB3B00511331 /* ContentView.swift */; };
+		372169F42355EB3B00511331 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372169F32355EB3B00511331 /* HostingController.swift */; };
+		372169F62355EB3B00511331 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372169F52355EB3B00511331 /* ExtensionDelegate.swift */; };
+		372169F82355EB3C00511331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169F72355EB3C00511331 /* Assets.xcassets */; };
+		372169FB2355EB3C00511331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372169FA2355EB3C00511331 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		372169DF2355EB3800511331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3721699E2355E86B00511331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372169DC2355EB3800511331;
+			remoteInfo = "buttons-watch WatchKit App";
+		};
+		372169EE2355EB3B00511331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3721699E2355E86B00511331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372169EB2355EB3B00511331;
+			remoteInfo = "buttons-watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37216A002355EB3C00511331 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				372169ED2355EB3B00511331 /* buttons-watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37216A042355EB3C00511331 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				372169DE2355EB3800511331 /* buttons-watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		372169A62355E86B00511331 /* buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buttons.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +81,46 @@
 		372169B22355E86D00511331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		372169B52355E86D00511331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372169B72355E86D00511331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372169BD2355E9A200511331 /* buttons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = buttons.entitlements; sourceTree = "<group>"; };
+		372169C22355E9E400511331 /* buttons-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "buttons-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372169C42355E9E400511331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		372169C62355E9E400511331 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		372169C82355E9E600511331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372169CB2355E9E600511331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		372169CE2355E9E600511331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		372169D02355E9E600511331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372169D12355E9E600511331 /* buttons_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = buttons_macos.entitlements; sourceTree = "<group>"; };
+		372169D62355EA8500511331 /* BorderedButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButtonTest.swift; sourceTree = "<group>"; };
+		372169DA2355EB3800511331 /* buttons-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "buttons-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372169DD2355EB3800511331 /* buttons-watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "buttons-watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372169E32355EB3800511331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		372169E52355EB3B00511331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372169E72355EB3B00511331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372169EC2355EB3B00511331 /* buttons-watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "buttons-watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372169F12355EB3B00511331 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		372169F32355EB3B00511331 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		372169F52355EB3B00511331 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		372169F72355EB3C00511331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372169FA2355EB3C00511331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		372169FC2355EB3C00511331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		372169A32355E86B00511331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372169BF2355E9E400511331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372169E92355EB3B00511331 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				372169A82355E86B00511331 /* buttons */,
+				372169C32355E9E400511331 /* buttons-macos */,
+				372169E12355EB3800511331 /* buttons-watch WatchKit App */,
+				372169F02355EB3B00511331 /* buttons-watch WatchKit Extension */,
 				372169A72355E86B00511331 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				372169A62355E86B00511331 /* buttons.app */,
+				372169C22355E9E400511331 /* buttons-macos.app */,
+				372169DA2355EB3800511331 /* buttons-watch.app */,
+				372169DD2355EB3800511331 /* buttons-watch WatchKit App.app */,
+				372169EC2355EB3B00511331 /* buttons-watch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +156,7 @@
 		372169A82355E86B00511331 /* buttons */ = {
 			isa = PBXGroup;
 			children = (
+				372169BD2355E9A200511331 /* buttons.entitlements */,
 				372169A92355E86B00511331 /* AppDelegate.swift */,
 				372169AB2355E86B00511331 /* SceneDelegate.swift */,
 				372169AD2355E86B00511331 /* ContentView.swift */,
@@ -71,6 +172,68 @@
 			isa = PBXGroup;
 			children = (
 				372169B22355E86D00511331 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		372169C32355E9E400511331 /* buttons-macos */ = {
+			isa = PBXGroup;
+			children = (
+				372169D52355EA7800511331 /* Buttons */,
+				372169C42355E9E400511331 /* AppDelegate.swift */,
+				372169C62355E9E400511331 /* ContentView.swift */,
+				372169C82355E9E600511331 /* Assets.xcassets */,
+				372169CD2355E9E600511331 /* Main.storyboard */,
+				372169D02355E9E600511331 /* Info.plist */,
+				372169D12355E9E600511331 /* buttons_macos.entitlements */,
+				372169CA2355E9E600511331 /* Preview Content */,
+			);
+			path = "buttons-macos";
+			sourceTree = "<group>";
+		};
+		372169CA2355E9E600511331 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				372169CB2355E9E600511331 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		372169D52355EA7800511331 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				372169D62355EA8500511331 /* BorderedButtonTest.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		372169E12355EB3800511331 /* buttons-watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				372169E22355EB3800511331 /* Interface.storyboard */,
+				372169E52355EB3B00511331 /* Assets.xcassets */,
+				372169E72355EB3B00511331 /* Info.plist */,
+			);
+			path = "buttons-watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		372169F02355EB3B00511331 /* buttons-watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				372169F12355EB3B00511331 /* ContentView.swift */,
+				372169F32355EB3B00511331 /* HostingController.swift */,
+				372169F52355EB3B00511331 /* ExtensionDelegate.swift */,
+				372169F72355EB3C00511331 /* Assets.xcassets */,
+				372169FC2355EB3C00511331 /* Info.plist */,
+				372169F92355EB3C00511331 /* Preview Content */,
+			);
+			path = "buttons-watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		372169F92355EB3C00511331 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				372169FA2355EB3C00511331 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -95,6 +258,74 @@
 			productReference = 372169A62355E86B00511331 /* buttons.app */;
 			productType = "com.apple.product-type.application";
 		};
+		372169C12355E9E400511331 /* buttons-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372169D22355E9E600511331 /* Build configuration list for PBXNativeTarget "buttons-macos" */;
+			buildPhases = (
+				372169BE2355E9E400511331 /* Sources */,
+				372169BF2355E9E400511331 /* Frameworks */,
+				372169C02355E9E400511331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "buttons-macos";
+			productName = "buttons-macos";
+			productReference = 372169C22355E9E400511331 /* buttons-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		372169D92355EB3800511331 /* buttons-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37216A052355EB3C00511331 /* Build configuration list for PBXNativeTarget "buttons-watch" */;
+			buildPhases = (
+				372169D82355EB3800511331 /* Resources */,
+				37216A042355EB3C00511331 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372169E02355EB3800511331 /* PBXTargetDependency */,
+			);
+			name = "buttons-watch";
+			productName = "buttons-watch";
+			productReference = 372169DA2355EB3800511331 /* buttons-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		372169DC2355EB3800511331 /* buttons-watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37216A012355EB3C00511331 /* Build configuration list for PBXNativeTarget "buttons-watch WatchKit App" */;
+			buildPhases = (
+				372169DB2355EB3800511331 /* Resources */,
+				37216A002355EB3C00511331 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372169EF2355EB3B00511331 /* PBXTargetDependency */,
+			);
+			name = "buttons-watch WatchKit App";
+			productName = "buttons-watch WatchKit App";
+			productReference = 372169DD2355EB3800511331 /* buttons-watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		372169EB2355EB3B00511331 /* buttons-watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372169FD2355EB3C00511331 /* Build configuration list for PBXNativeTarget "buttons-watch WatchKit Extension" */;
+			buildPhases = (
+				372169E82355EB3B00511331 /* Sources */,
+				372169E92355EB3B00511331 /* Frameworks */,
+				372169EA2355EB3B00511331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "buttons-watch WatchKit Extension";
+			productName = "buttons-watch WatchKit Extension";
+			productReference = 372169EC2355EB3B00511331 /* buttons-watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,6 +337,18 @@
 				ORGANIZATIONNAME = "Maegan Wilson";
 				TargetAttributes = {
 					372169A52355E86B00511331 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					372169C12355E9E400511331 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					372169D92355EB3800511331 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					372169DC2355EB3800511331 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					372169EB2355EB3B00511331 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -124,6 +367,10 @@
 			projectRoot = "";
 			targets = (
 				372169A52355E86B00511331 /* buttons */,
+				372169C12355E9E400511331 /* buttons-macos */,
+				372169D92355EB3800511331 /* buttons-watch */,
+				372169DC2355EB3800511331 /* buttons-watch WatchKit App */,
+				372169EB2355EB3B00511331 /* buttons-watch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +383,41 @@
 				372169B62355E86D00511331 /* LaunchScreen.storyboard in Resources */,
 				372169B32355E86D00511331 /* Preview Assets.xcassets in Resources */,
 				372169B02355E86D00511331 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372169C02355E9E400511331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372169CF2355E9E600511331 /* Main.storyboard in Resources */,
+				372169CC2355E9E600511331 /* Preview Assets.xcassets in Resources */,
+				372169C92355E9E600511331 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372169D82355EB3800511331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372169DB2355EB3800511331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372169E62355EB3B00511331 /* Assets.xcassets in Resources */,
+				372169E42355EB3800511331 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372169EA2355EB3B00511331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372169FB2355EB3C00511331 /* Preview Assets.xcassets in Resources */,
+				372169F82355EB3C00511331 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +434,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		372169BE2355E9E400511331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372169D72355EA8500511331 /* BorderedButtonTest.swift in Sources */,
+				372169C72355E9E400511331 /* ContentView.swift in Sources */,
+				372169C52355E9E400511331 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372169E82355EB3B00511331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372169F42355EB3B00511331 /* HostingController.swift in Sources */,
+				372169F22355EB3B00511331 /* ContentView.swift in Sources */,
+				372169F62355EB3B00511331 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		372169E02355EB3800511331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372169DC2355EB3800511331 /* buttons-watch WatchKit App */;
+			targetProxy = 372169DF2355EB3800511331 /* PBXContainerItemProxy */;
+		};
+		372169EF2355EB3B00511331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372169EB2355EB3B00511331 /* buttons-watch WatchKit Extension */;
+			targetProxy = 372169EE2355EB3B00511331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		372169B42355E86D00511331 /* LaunchScreen.storyboard */ = {
@@ -161,6 +476,22 @@
 				372169B52355E86D00511331 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		372169CD2355E9E600511331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372169CE2355E9E600511331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		372169E22355EB3800511331 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372169E32355EB3800511331 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,6 +615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = buttons/buttons.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"buttons/Preview Content\"";
 				DEVELOPMENT_TEAM = ZDK82FGR3Z;
@@ -295,8 +627,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appsbymw.buttons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = buttons/buttons.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"buttons/Preview Content\"";
 				DEVELOPMENT_TEAM = ZDK82FGR3Z;
@@ -315,8 +649,169 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appsbymw.buttons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		372169D32355E9E600511331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "buttons-macos/buttons_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"buttons-macos/Preview Content\"";
+				DEVELOPMENT_TEAM = ZDK82FGR3Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "buttons-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbymw.buttons-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		372169D42355E9E600511331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "buttons-macos/buttons_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"buttons-macos/Preview Content\"";
+				DEVELOPMENT_TEAM = ZDK82FGR3Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "buttons-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbymw.buttons-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		372169FE2355EB3C00511331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"buttons-watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZDK82FGR3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "buttons-watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbymw.buttons-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		372169FF2355EB3C00511331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"buttons-watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZDK82FGR3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "buttons-watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbymw.buttons-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		37216A022355EB3C00511331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDK82FGR3Z;
+				IBSC_MODULE = buttons_watch_WatchKit_Extension;
+				INFOPLIST_FILE = "buttons-watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbymw.buttons-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		37216A032355EB3C00511331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDK82FGR3Z;
+				IBSC_MODULE = buttons_watch_WatchKit_Extension;
+				INFOPLIST_FILE = "buttons-watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbymw.buttons-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		37216A062355EB3C00511331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZDK82FGR3Z;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbymw.buttons-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37216A072355EB3C00511331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZDK82FGR3Z;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbymw.buttons-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -337,6 +832,42 @@
 			buildConfigurations = (
 				372169BB2355E86D00511331 /* Debug */,
 				372169BC2355E86D00511331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372169D22355E9E600511331 /* Build configuration list for PBXNativeTarget "buttons-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372169D32355E9E600511331 /* Debug */,
+				372169D42355E9E600511331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372169FD2355EB3C00511331 /* Build configuration list for PBXNativeTarget "buttons-watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372169FE2355EB3C00511331 /* Debug */,
+				372169FF2355EB3C00511331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37216A012355EB3C00511331 /* Build configuration list for PBXNativeTarget "buttons-watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37216A022355EB3C00511331 /* Debug */,
+				37216A032355EB3C00511331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37216A052355EB3C00511331 /* Build configuration list for PBXNativeTarget "buttons-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37216A062355EB3C00511331 /* Debug */,
+				37216A072355EB3C00511331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
