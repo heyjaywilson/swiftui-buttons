@@ -32,6 +32,8 @@
 		37C7E0262356975C00FF2549 /* PlainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37216A0D2355F18F00511331 /* PlainButtonView.swift */; };
 		37C7E0272356976300FF2549 /* PlainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37216A0D2355F18F00511331 /* PlainButtonView.swift */; };
 		37C7E0282356976C00FF2549 /* LinkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E0222356441300FF2549 /* LinkButtonView.swift */; };
+		37C7E02A23569AD000FF2549 /* BorderlessButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E02923569AD000FF2549 /* BorderlessButtonView.swift */; };
+		37C7E02B23569AD000FF2549 /* BorderlessButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E02923569AD000FF2549 /* BorderlessButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,7 @@
 		372169FC2355EB3C00511331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37216A0D2355F18F00511331 /* PlainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainButtonView.swift; sourceTree = "<group>"; };
 		37C7E0222356441300FF2549 /* LinkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButtonView.swift; sourceTree = "<group>"; };
+		37C7E02923569AD000FF2549 /* BorderlessButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderlessButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +253,7 @@
 			children = (
 				37216A0D2355F18F00511331 /* PlainButtonView.swift */,
 				37C7E0222356441300FF2549 /* LinkButtonView.swift */,
+				37C7E02923569AD000FF2549 /* BorderlessButtonView.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -444,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C7E02A23569AD000FF2549 /* BorderlessButtonView.swift in Sources */,
 				372169AA2355E86B00511331 /* AppDelegate.swift in Sources */,
 				372169AC2355E86B00511331 /* SceneDelegate.swift in Sources */,
 				372169AE2355E86B00511331 /* ContentView.swift in Sources */,
@@ -458,6 +463,7 @@
 				372169D72355EA8500511331 /* BorderedButtonTest.swift in Sources */,
 				372169C72355E9E400511331 /* ContentView.swift in Sources */,
 				372169C52355E9E400511331 /* AppDelegate.swift in Sources */,
+				37C7E02B23569AD000FF2549 /* BorderlessButtonView.swift in Sources */,
 				37216A0F2355F18F00511331 /* PlainButtonView.swift in Sources */,
 				37C7E0282356976C00FF2549 /* LinkButtonView.swift in Sources */,
 			);
