@@ -13,6 +13,7 @@ struct ContentView: View {
         ScrollView{
             BorderedButtonTest()
             PlainButtonView()
+            LinkButtonView()
         }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
