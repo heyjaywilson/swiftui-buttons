@@ -14,6 +14,7 @@ struct ContentView: View {
             BorderedButtonTest()
             PlainButtonView()
             LinkButtonView()
+            BorderlessButtonView()
         }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     }

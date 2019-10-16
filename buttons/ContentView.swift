@@ -17,6 +17,7 @@ struct ContentView: View {
                 Text("Bordered Button: Not available")
             }
             PlainButtonView()
+            BorderlessButtonView()
         }
     }
 }
