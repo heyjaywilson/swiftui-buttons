@@ -27,12 +27,5 @@ Button(action: {
 
 ```
 
-In the [GitHub repo](https://github.com/maeganjwilson/swiftui-buttons), there is an Xcode project with each button style used.
+In the [GitHub repo](https://github.com/heyjaywilson/swiftui-buttons), there is an Xcode project with each button style used.
 
----
-
-If you enjoyed this post and want more, please consider subscribing to my [Patreon](https://www.patreon.com/maeganwilson_) and checking out my other posts!
-
-If you don't like having more subscriptions, consider buying me a coffee by clicking the image below! <a href="https://www.buymeacoffee.com/maeganwilson_" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
----
